@@ -252,7 +252,7 @@ static void InitBitPatterns(void)
 						0x400 << (2 >> (bits>>ksPAGE2v & 3) & 1);
 						// = either 0x400 or 0x800
 
-		switch ( (bits & 0x1F)  |  ((v>>5)-5) & 0x20 )
+		switch ( (bits & 0x1F)  |  (((v>>5))-5) & 0x20 )
 		{
 		//------------------------------------- 40-column text
 

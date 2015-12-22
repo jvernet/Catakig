@@ -12,19 +12,19 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="-3" userLabel="Application"/>
         <menu title="MainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
                 <menuItem title="Catakig" id="56">
                     <menu key="submenu" title="Catakig" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="A propos" id="58">
+                            <menuItem title="About..." id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="makeKeyAndOrderFront:" target="214" id="218"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Préférences…" keyEquivalent="," id="129">
+                            <menuItem title="Preferences…" keyEquivalent="," id="129">
                                 <connections>
                                     <action selector="makeKeyAndOrderFront:" target="216" id="219"/>
                                 </connections>
@@ -32,18 +32,18 @@
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Masquer Catakig" keyEquivalent="h" id="134">
+                            <menuItem title="Hide Catakig" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-2" id="152"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Masquer les autres" keyEquivalent="h" id="145">
+                            <menuItem title="Hide Others" keyEquivalent="h" id="145">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="hideOtherApplications:" target="-2" id="146"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Tout afficher" id="150">
+                            <menuItem title="Show All" id="150">
                                 <connections>
                                     <action selector="unhideAllApplications:" target="-2" id="153"/>
                                 </connections>
@@ -51,7 +51,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quitter" keyEquivalent="q" id="136">
+                            <menuItem title="Quit" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-2" id="139"/>
                                 </connections>
@@ -59,15 +59,15 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Fichier" id="83">
-                    <menu key="submenu" title="Fichier" id="81">
+                <menuItem title="File" id="83">
+                    <menu key="submenu" title="File" id="81">
                         <items>
-                            <menuItem title="Nouvel Apple II..." keyEquivalent="n" id="82">
+                            <menuItem title="New Apple II..." keyEquivalent="n" id="82">
                                 <connections>
                                     <action selector="newDocument:" target="-1" id="194"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Fermer" keyEquivalent="w" id="73">
+                            <menuItem title="Close" keyEquivalent="w" id="73">
                                 <connections>
                                     <action selector="performClose:" target="-1" id="193"/>
                                 </connections>
@@ -75,17 +75,17 @@
                             <menuItem isSeparatorItem="YES" id="74">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Capture Ecran..." id="266">
+                            <menuItem title="Save Screen Image..." id="266">
                                 <connections>
                                     <action selector="SaveScreenImage:" target="-1" id="267"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Copier Texte Ecran" keyEquivalent="c" id="312">
+                            <menuItem title="Copy Screen Text" keyEquivalent="c" id="312">
                                 <connections>
                                     <action selector="CopyScreenText:" target="-1" id="314"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Coller Texte" keyEquivalent="v" id="313">
+                            <menuItem title="Paste Text" keyEquivalent="v" id="313">
                                 <connections>
                                     <action selector="PasteScreenText:" target="-1" id="315"/>
                                 </connections>
@@ -93,28 +93,28 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Contrôle" id="272">
-                    <menu key="submenu" title="Contrôle" id="273">
+                <menuItem title="Control" id="272">
+                    <menu key="submenu" title="Control" id="273">
                         <items>
-                            <menuItem title="Pause" keyEquivalent="" id="275">
+                            <menuItem title="Halt" keyEquivalent="" id="275">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitSpeedControl:" target="-1" id="276"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Normal" tag="1" keyEquivalent="" id="277">
+                            <menuItem title="Normal Speed" tag="1" keyEquivalent="" id="277">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitSpeedControl:" target="-1" id="278"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Double" tag="2" keyEquivalent="" id="279">
+                            <menuItem title="Double Speed" tag="2" keyEquivalent="" id="279">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitSpeedControl:" target="-1" id="280"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="x6" tag="3" keyEquivalent="" id="281">
+                            <menuItem title="Speed x 6" tag="3" keyEquivalent="" id="281">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitSpeedControl:" target="-1" id="282"/>
@@ -138,15 +138,15 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Periphériques" id="290">
-                    <menu key="submenu" title="Periphériques" id="291">
+                <menuItem title="Peripherals" id="290">
+                    <menu key="submenu" title="Peripherals" id="291">
                         <items>
-                            <menuItem title="Effacer Session Impression" id="300">
+                            <menuItem title="Clear Print Session" id="300">
                                 <connections>
                                     <action selector="ClearPrintSession:" target="-1" id="301"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Sauvegarder Session Impression..." id="298">
+                            <menuItem title="Save Print Session…" id="298">
                                 <connections>
                                     <action selector="printDocument:" target="-1" id="299"/>
                                 </connections>
@@ -154,13 +154,13 @@
                             <menuItem isSeparatorItem="YES" id="297">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Charger Disque 1" tag="1" keyEquivalent="" id="292">
+                            <menuItem title="Load Disk Drive 1" tag="1" keyEquivalent="" id="292">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitDiskDrive:" target="-1" id="304"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Charger Disque 2" tag="2" keyEquivalent="" id="293">
+                            <menuItem title="Load Disk Drive 2" tag="2" keyEquivalent="" id="293">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="HitDiskDrive:" target="-1" id="305"/>
@@ -169,13 +169,13 @@
                             <menuItem isSeparatorItem="YES" id="308">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Ejecter Disque 1" tag="-1" id="295">
+                            <menuItem title="Unload Drive 1" tag="-1" id="295">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES"/>
                                 <connections>
                                     <action selector="HitDiskDrive:" target="-1" id="306"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Ejecter Disque 2" tag="-2" id="296">
+                            <menuItem title="Unload Drive 2" tag="-2" id="296">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES"/>
                                 <connections>
                                     <action selector="HitDiskDrive:" target="-1" id="307"/>
@@ -184,16 +184,17 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Fenêtre" id="19">
-                    <menu key="submenu" title="Fenêtre" systemMenu="window" id="24">
+                <menuItem title="Window" id="19">
+                    <menu key="submenu" title="Window" systemMenu="window" id="24">
                         <items>
-                            <menuItem title="Monochrome/Couleur" keyEquivalent="" id="288">
+                            <menuItem title="Monochrome/Color" keyEquivalent="" id="288">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="ToggleColorVideo:" target="-1" id="289"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Plein Ecran" keyEquivalent="F" id="203">
+                            <menuItem title="Full Screen" keyEquivalent="" id="203">
+                                <modifierMask key="keyEquivalentModifierMask" control="YES"/>
                                 <connections>
                                     <action selector="ToggleFullScreen:" target="-1" id="309"/>
                                 </connections>
@@ -201,12 +202,12 @@
                             <menuItem isSeparatorItem="YES" id="92">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Minimiser" keyEquivalent="m" id="23">
+                            <menuItem title="Minimize" keyEquivalent="m" id="23">
                                 <connections>
                                     <action selector="performMiniaturize:" target="-1" id="37"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Tout ramener au premier plan" id="5">
+                            <menuItem title="Bring All to Front" id="5">
                                 <connections>
                                     <action selector="arrangeInFront:" target="-1" id="39"/>
                                 </connections>
@@ -232,7 +233,7 @@
             <rect key="contentRect" x="202" y="322" width="440" height="200"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
             <view key="contentView" id="215">
-                <rect key="frame" x="0.0" y="0.0" width="440" height="200"/>
+                <rect key="frame" x="1" y="1" width="440" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView id="246">
@@ -269,15 +270,14 @@
                 <outlet property="mCursorCover" destination="252" id="253"/>
                 <outlet property="mVersion" destination="254" id="255"/>
             </connections>
-            <point key="canvasLocation" x="82" y="35"/>
         </window>
-        <window title="Catakig Préférences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="216" userLabel="Prefs Pan" customClass="PrefsPanel">
+        <window title="Catakig Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="216" userLabel="Prefs Pan" customClass="PrefsPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="179" y="521" width="314" height="107"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
             <view key="contentView" id="217">
-                <rect key="frame" x="0.0" y="0.0" width="314" height="107"/>
+                <rect key="frame" x="1" y="1" width="314" height="107"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <colorWell id="261">
@@ -291,7 +291,7 @@
                     <textField verticalHuggingPriority="750" id="271">
                         <rect key="frame" x="17" y="73" width="160" height="14"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Teinte vidéo monochrome" id="327">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Monochrome video hue —" id="327">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -309,11 +309,11 @@
                         </buttonCell>
                         <cells>
                             <column>
-                                <buttonCell type="radio" title="Souris" imagePosition="left" alignment="left" controlSize="small" state="on" inset="2" id="318">
+                                <buttonCell type="radio" title="Mouse" imagePosition="left" alignment="left" controlSize="small" state="on" inset="2" id="318">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
-                                <buttonCell type="radio" title="Pavé Numérique" imagePosition="left" alignment="left" controlSize="small" tag="1" inset="2" id="319">
+                                <buttonCell type="radio" title="Numeric keypad" imagePosition="left" alignment="left" controlSize="small" tag="1" inset="2" id="319">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
@@ -323,7 +323,7 @@
                     <textField verticalHuggingPriority="750" id="320">
                         <rect key="frame" x="17" y="51" width="160" height="14"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Joystick controllé par—" id="328">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Joystick controlled by —" id="328">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -336,19 +336,19 @@
                 <outlet property="mMonochromeHue" destination="261" id="311"/>
             </connections>
         </window>
-        <window title="Nouvel Apple II" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="220" userLabel="New A2 Pan" customClass="NSPanel">
+        <window title="New Apple II" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="220" userLabel="New A2 Pan" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="284" y="523" width="255" height="201"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
             <view key="contentView" id="221">
-                <rect key="frame" x="0.0" y="0.0" width="255" height="201"/>
+                <rect key="frame" x="1" y="1" width="255" height="201"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" tag="1" id="226">
                         <rect key="frame" x="159" y="12" width="82" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="push" title="Créer" bezelStyle="rounded" alignment="center" borderStyle="border" tag="1" inset="2" id="329">
+                        <buttonCell key="cell" type="push" title="Create" bezelStyle="rounded" alignment="center" borderStyle="border" tag="1" inset="2" id="329">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -362,7 +362,7 @@ DQ
                     <button verticalHuggingPriority="750" id="227">
                         <rect key="frame" x="67" y="12" width="82" height="32"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <buttonCell key="cell" type="push" title="Annuler" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="330">
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="330">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -376,7 +376,7 @@ Gw
                     <box title="Extra RAM" id="233">
                         <rect key="frame" x="149" y="100" width="89" height="81"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <view key="contentView" id="758-Fg-jj8">
+                        <view key="contentView" id="wBp-v8-MbI">
                             <rect key="frame" x="2" y="2" width="85" height="64"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -408,10 +408,10 @@ Gw
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box title="Modéle" id="242">
+                    <box title="Model" id="242">
                         <rect key="frame" x="17" y="60" width="110" height="121"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <view key="contentView" id="PeK-SC-AHt">
+                        <view key="contentView" id="AXd-bA-H2z">
                             <rect key="frame" x="2" y="2" width="106" height="104"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
