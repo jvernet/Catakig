@@ -1,0 +1,42 @@
+
+==== Preferences ====
+
+* Let user pick the colors of color video.  Or, NTSC vs. PAL.
+* Checkbox for cassette tape audio output.
+* Allow skipping lines in monochrome/color video (two separate checkboxes).
+* Checkbox for Mockingboard (when implemented).
+* Checkbox for disk drive sound effects (when implemented).
+* "Start Apple IIs with power already on" checkbox.
+* Sound volume control in application?
+* Add "success" and "failure" feedback beeps, with ability to disable.
+* Add more control over paddle buttons.
+* Mouse-joystick mapping assumes only one screen, the main one.
+	Should instead range over the entire desktop.
+
+
+==== the Apple II window ====
+
+* Make dashboard into a drawer?  A toolbar?  Anyway, let user hide it.
+* Optionally show annunciator lights in dashboard.  Not on IIc though.
+* Need per-window preferences?
+* Are we capturing screens in the best and fastest way?
+* Drag & Drop disk slots
+* File filtering is slow when opening disk images.
+* Add recording sound to files.
+* Add recording QuickTime movies.
+
+
+==== Miscellany ====
+
+* Internationalize all displayed text.
+* Add built-in help pages: HTML or PDF
+* Support real joysticks, via HID & IOKit.
+* Use third-party Cocoa kits?  OmniGroup's?
+* Rethink error handling and reporting!  Use exceptions?  Add Log window?
+* Would Xcode build phases be useful?
+* Use zlib 1.2.3?  nulib?
+* Add OSX icons for '.rom', '.hdv' files.  Others?
+* Rename the 'MyDocument' class to something more inspired.  (This is a
+	relic of the original project stationery.)
+* Save and restore states.  (Open, Save, Revert, etc.)
+* Quick save and restore?
