@@ -49,7 +49,6 @@
 		28F52FF70A87D7DF00BE8D0C /* MU-String.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F52FEB0A87D7DF00BE8D0C /* MU-String.m */; };
 		28F52FF80A87D7DF00BE8D0C /* MU-View.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F52FEC0A87D7DF00BE8D0C /* MU-View.m */; };
 		28F52FF90A87D7DF00BE8D0C /* ShieldWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F52FEF0A87D7DF00BE8D0C /* ShieldWindow.m */; };
-		4E513CDB1C1E146C001EB0D9 /* Move arm.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4E513CDA1C1E146C001EB0D9 /* Move arm.aiff */; };
 		8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
 		8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
@@ -139,8 +138,7 @@
 		4E513CD61C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fr; path = fr.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		4E513CD71C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fr; path = fr.lproj/MyDocument.nib; sourceTree = "<group>"; };
 		4E513CD81C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E513CD91C1E13BD001EB0D9 /* Move arm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "Move arm.aiff"; path = "More-Resources/Move arm.aiff"; sourceTree = "<group>"; };
-		4E513CDA1C1E146C001EB0D9 /* Move arm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "Move arm.aiff"; path = "More-Resources/Move arm.aiff"; sourceTree = "<group>"; };
+		4E513CD91C1E13BD001EB0D9 /* Move arm.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Move arm.aiff"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Catakig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catakig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -272,6 +270,7 @@
 		289663F00A90111700A49F71 /* More-Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4E513CD91C1E13BD001EB0D9 /* Move arm.aiff */,
 				289663F10A90111700A49F71 /* AboutBoxPanel1.png */,
 				289663F20A90111700A49F71 /* Application.icns */,
 				289663F30A90111700A49F71 /* DDriveLights.icns */,
@@ -310,8 +309,6 @@
 		2A37F4AAFDCFA73011CA2CEA /* Catakig */ = {
 			isa = PBXGroup;
 			children = (
-				4E513CDA1C1E146C001EB0D9 /* Move arm.aiff */,
-				4E513CD91C1E13BD001EB0D9 /* Move arm.aiff */,
 				281E621A0AE58D7E00C222E9 /* Notes */,
 				287231B70A877A8E006AA610 /* Source */,
 				2A37F4B8FDCFA73011CA2CEA /* Resources */,
@@ -398,7 +395,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E513CDB1C1E146C001EB0D9 /* Move arm.aiff in Resources */,
 				8D15AC2D0486D014006FF6A4 /* MainMenu.nib in Resources */,
 				8D15AC2E0486D014006FF6A4 /* MyDocument.nib in Resources */,
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
