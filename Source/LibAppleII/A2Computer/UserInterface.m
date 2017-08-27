@@ -77,7 +77,7 @@ static NSString* gNameOfModel[] =
 	if (len > 250)
 		len = 250;
 	mKeyQ.head = mKeyQ.tail = 0;
-	[str getCString:(char*)(mKeyQ.buf) maxLength:len];
+	[str getCString:(char*)(mKeyQ.buf) maxLength:len encoding:NSASCIIStringEncoding];
 	mKeyQ.tail = len;
 	mKeyQ.hitRecently = YES;
 }
@@ -250,8 +250,11 @@ static inline uint8_t ASCIIfy(int charset, uint8_t ch)
 		if (newLines)
 			*pout++ = '\n';
 	}
+	*pout++=0;
 
-	return [NSString stringWithCString:cstr length:(pout-cstr)];
+	return [NSString stringWithCString:cstr encoding:NSUTF8StringEncoding];
+	
+								//length:(pout-cstr)];
 }
 
 //---------------------------------------------------------------------------
