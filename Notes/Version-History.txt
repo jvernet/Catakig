@@ -1,3 +1,6 @@
+==== 2.00b5
+Updated XCode project to XCode 9
+French Translation
 
 ==== 2.00b4, 2006-10-27 ====
 

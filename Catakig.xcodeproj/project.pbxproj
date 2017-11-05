@@ -520,8 +520,9 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Debug;
@@ -530,7 +531,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				SDKROOT = macosx10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
 				VALID_ARCHS = i386;
 			};
 			name = Release;
