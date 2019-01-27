@@ -1,6 +1,6 @@
 #include "common" // file 'common.xcconfig'
 
-ARCHS	= ppc i386
+ARCHS	= ppc i386 X86_64
 
 GCC_OPTIMIZATION_LEVEL			= 3
 GCC_DYNAMIC_NO_PIC				= YES
