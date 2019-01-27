@@ -135,6 +135,7 @@
 		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4E02C5E121FE258E00603287 /* myROM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myROM.h; sourceTree = "<group>"; };
 		4E513CD61C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fr; path = fr.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		4E513CD71C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fr; path = fr.lproj/MyDocument.nib; sourceTree = "<group>"; };
 		4E513CD81C1DC1B6001EB0D9 /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -239,6 +240,7 @@
 		2872382C0A87B16B006AA610 /* LibAppleII */ = {
 			isa = PBXGroup;
 			children = (
+				4E02C5E121FE258E00603287 /* myROM.h */,
 				2872387D0A87B53B006AA610 /* A2Computer */,
 				280F4AB10A88E2AE000B3B80 /* A2DiskDrive.h */,
 				285BF27C0A926BB2003F6BAC /* A2DiskDrive.m */,
