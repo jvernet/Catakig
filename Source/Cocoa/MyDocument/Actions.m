@@ -149,11 +149,11 @@
 - (void)_printDocument2:(NSSavePanel*)panel
 	resp:(int)userResponse sender:(id)sender
 {
-	if (userResponse != NSOKButton)
+	if (userResponse !=  NSModalResponseOK )
 		return;
 
 	NSString*	fpath  = [panel filename];
-	int			filter = [mPrSessionFilter selectedTag];
+	NSUInteger filter = [mPrSessionFilter selectedTag];
 	NSString*	extensions[] = {@"txt", @"ps", @"raw"};
 
 	if ([mPrSessionAddSuffix state] == NSOnState)
@@ -175,7 +175,7 @@
 {/*
 	Called when user invokes "Load" or "Unload" on a disk drive.
 */
-	int					index = abs([sender tag]) - 1;
+	NSInteger			index = abs([sender tag]) - 1;
 	id<A2PrDiskDrive>   ddrive = [mA2 DiskDrive:index];
 	NSControl*			dname = (&mDDrive0)[index];
 

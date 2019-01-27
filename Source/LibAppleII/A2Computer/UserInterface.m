@@ -72,7 +72,7 @@ static NSString* gNameOfModel[] =
 	Puts the given string of characters into the Apple II's keyboard
 	queue, as if they had all been typed -- really really quickly.
 */
-	int		len = [str length];
+	NSUInteger		len = [str length];
 
 	if (len > 250)
 		len = 250;

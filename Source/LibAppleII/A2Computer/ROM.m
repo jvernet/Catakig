@@ -198,7 +198,7 @@ static struct // the ROM repository
 				chunkSize = 256 };
 	uint8_t		chunk[chunkSize];
 	FILE*		fin;
-	uint32_t	crcInit = crc32(0L, Z_NULL, 0);
+	NSUInteger	crcInit = crc32(0L, Z_NULL, 0);
 
 	fin = fopen([filePath fileSystemRepresentation], "rb");
 	if (fin == NULL)
@@ -210,7 +210,8 @@ static struct // the ROM repository
 
 	while (fread(chunk, 1, chunkSize, fin) == chunkSize)
 	{
-		uint32_t	crc = crc32(crcInit, chunk, chunkSize);
+		//uint32_t
+		NSUInteger  crc = crc32(crcInit, chunk, chunkSize);
 		uint8_t*	dest;
 		long		len;
 
