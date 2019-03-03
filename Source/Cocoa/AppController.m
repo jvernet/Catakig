@@ -35,7 +35,7 @@
 	{
 		NSArray*	arr;
 
-		arr = [G.fileMgr directoryContentsAtPath:@"/System/Library/Sounds"];
+		arr = [G.fileMgr contentsOfDirectoryAtPath:@"/System/Library/Sounds" error:nil];
 		NSLog(@"Found sounds: %@", arr);
 	}
 }

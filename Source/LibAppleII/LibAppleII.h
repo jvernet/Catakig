@@ -234,7 +234,7 @@ extern struct A2Globals
 @interface A2Computer (Video)
 
 + (void)		_InitVideo;
-- (void)		RenderScreen:(void*)pixBase:(int32_t)rowBytes;
+- (void)		RenderScreen: (void*)pixBase:(int32_t)rowBytes;
 
 @end
 

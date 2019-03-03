@@ -493,7 +493,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_VERSION_i386 = "";
 				GCC_VERSION_ppc = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = net.sourceforge.catakig;
 				SDKROOT = macosx;
 				SDKROOT_i386 = "";
@@ -510,7 +510,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_VERSION_i386 = "";
 				GCC_VERSION_ppc = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = net.sourceforge.catakig;
 				SDKROOT = macosx;
 				SDKROOT_i386 = "";

@@ -91,7 +91,7 @@ static void SyncDefaults(BOOL registering)
 
 	First ensure color is in RGB space??
 */
-	float		r, g, b;
+	double		r, g, b;
 
 	[[sender color] getRed:&r green:&g blue:&b alpha:nil];
 	G.prefs.monochromeHue =

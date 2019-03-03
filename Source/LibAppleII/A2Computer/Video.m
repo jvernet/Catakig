@@ -173,7 +173,7 @@ static void InitBitPatterns(void)
 
 //---------------------------------------------------------------------------
 
-- (void)RenderScreen:(void*)pixBase:(int32_t)rowBytes
+- (void)RenderScreen: (void*)pixBase:(int32_t)rowBytes
 {/*
 	Renders a frame of Apple II video into the given 8-bit deep image.
 

@@ -175,7 +175,7 @@
 {/*
 	Called when user invokes "Load" or "Unload" on a disk drive.
 */
-	NSInteger			index = abs([sender tag]) - 1;
+	NSInteger			index = labs([sender tag]) - 1;
 	id<A2PrDiskDrive>   ddrive = [mA2 DiskDrive:index];
 	NSControl*			dname = (&mDDrive0)[index];
 
@@ -221,7 +221,7 @@
 	if (userResponse != NSOKButton)
 		return;
 
-	int					index = abs([sender tag]) - 1;
+	NSInteger					index = labs([sender tag]) - 1;
 	id<A2PrDiskDrive>   ddrive = [mA2 DiskDrive:index];
 	NSTextField*		dname = (&mDDrive0)[index];
 

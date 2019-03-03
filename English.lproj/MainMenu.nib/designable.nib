@@ -220,6 +220,7 @@
             <connections>
                 <outlet property="delegate" destination="212" id="310"/>
             </connections>
+            <point key="canvasLocation" x="139" y="-81"/>
         </menu>
         <customObject id="212" userLabel="AppController" customClass="AppController">
             <connections>
@@ -232,9 +233,9 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" texturedBackground="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="202" y="322" width="440" height="200"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="215">
-                <rect key="frame" x="1" y="1" width="440" height="200"/>
+                <rect key="frame" x="0.0" y="0.0" width="440" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView id="246">
@@ -247,7 +248,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <imageCell key="cell" enabled="NO" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" image="Application" id="324"/>
                     </imageView>
-                    <textField verticalHuggingPriority="750" id="252">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="252">
                         <rect key="frame" x="199" y="169" width="33" height="23"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" enabled="NO" sendsActionOnEndEditing="YES" drawsBackground="YES" id="325">
@@ -256,7 +257,7 @@
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="254">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="254">
                         <rect key="frame" x="358" y="177" width="56" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="???" id="326">
@@ -276,9 +277,9 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="179" y="521" width="314" height="107"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="217">
-                <rect key="frame" x="1" y="1" width="314" height="107"/>
+                <rect key="frame" x="0.0" y="0.0" width="314" height="107"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <colorWell id="261">
@@ -289,7 +290,7 @@
                             <action selector="HitMonochromeHue:" target="216" id="316"/>
                         </connections>
                     </colorWell>
-                    <textField verticalHuggingPriority="750" id="271">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="271">
                         <rect key="frame" x="17" y="73" width="160" height="14"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Monochrome video hue —" id="327">
@@ -321,7 +322,7 @@
                             </column>
                         </cells>
                     </matrix>
-                    <textField verticalHuggingPriority="750" id="320">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="320">
                         <rect key="frame" x="17" y="51" width="160" height="14"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Joystick controlled by —" id="328">
@@ -341,7 +342,7 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="284" y="523" width="255" height="201"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1152" height="842"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="221">
                 <rect key="frame" x="0.0" y="0.0" width="255" height="201"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -450,6 +451,7 @@ Gw
                     </box>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="140" y="110"/>
         </window>
     </objects>
     <resources>
